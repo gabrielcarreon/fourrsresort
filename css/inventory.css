@@ -1,0 +1,31 @@
+.btn-add-inventory{
+    background-color: #528bf6;
+    border-radius: 40rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    padding: 0rem .7rem;
+    width: fit-content;
+    border-color: #528bf6;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+#btn-add-inventory:hover{
+    background-color: #154db6;
+    color: white;
+}
+.Available{
+    padding: .5rem 0rem;
+    width: 6rem;;
+    background-color: #2a6f3a;
+    color: white;
+}
+.dataTables_scroll{
+    margin-top: 3rem;
+}
+.Unavailable{
+    padding: .5rem 0rem;
+    width: 6rem;;
+    background-color: #8f8f8f;
+    color: white;
+}

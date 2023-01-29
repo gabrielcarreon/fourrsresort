@@ -1,0 +1,33 @@
+.Admin{
+    background-color: #bb3535;
+    padding: .5rem 2rem;
+    width: 7rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.Staff{
+    background-color:#2a6f3a;
+    padding: .5rem 2rem;
+    color: white;
+    width: 7rem;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-add-users{
+    background-color: #528bf6;
+    border-radius: 40rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    padding: 0rem .7rem;
+    width: fit-content;
+    border-color: #528bf6;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+.dataTables_scroll{
+    margin-top: 3rem;
+}
+#btn-add-users:hover{
+    background-color: #154db6;
+    color: white;
+}

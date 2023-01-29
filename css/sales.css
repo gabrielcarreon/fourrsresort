@@ -1,0 +1,38 @@
+.dataTables_scroll{
+    margin-top: 3rem;
+}
+.selection{
+    background-color: white;
+    border: 1px solid #8594ce;
+    border-radius: .4rem;
+    color: #6d7aac;
+    cursor: pointer;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    transition: .2s all ease-in-out;
+}
+.selection:hover{
+    border: 1px solid #6d7aac;
+    background-color: #6d7aac;
+    color: white;
+
+}
+.selection:active{
+    box-shadow: 5px 5px#8594ce;
+}
+.active-selection{
+    border: 1px solid #6d7aac!important;
+    background-color: #6d7aac!important;
+    color: white!important;
+}
+@media print{
+    .selection{
+        display: none;
+    }
+    #print-sales{
+        display: none;
+    }
+    .container-fluid{
+        display: none;
+    }
+}

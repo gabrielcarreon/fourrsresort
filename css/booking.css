@@ -1,0 +1,208 @@
+.booking-nav{
+    background-color: aquamarine;
+}
+.left-side{
+    background-color: aquamarine;
+    width: 40vw;
+    height: 100vh;
+}
+
+.left-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+#package-desc{
+    background-color: rgba(00, 00, 00, .4);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 40vw;
+    height: 20%;
+}
+#get-package-img{
+     object-fit: cover;
+    max-height: 400px !important;
+    height: 400px !important;
+}
+.bootstrap-datetimepicker-widget{
+    z-index: 999;
+}
+#inp-recepit-img, #inp-id-img{
+    cursor: pointer;
+}
+
+
+#success_tic .page-body{
+    max-width:300px;
+    background-color:#FFFFFF;
+    margin:10% auto;
+  }
+  #success_tic .page-body .head{
+    text-align:center;
+  }
+  /* #success_tic .tic{
+    font-size:186px;
+  } */
+  #success_tic .close{
+        opacity: 1;
+      position: absolute;
+      right: 0px;
+      font-size: 30px;
+      padding: 3px 15px;
+    margin-bottom: 10px;
+  }
+  #success_tic .checkmark-circle {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .checkmark-circle .background {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #1ab394;
+    position: absolute;
+  }
+  #success_tic .checkmark-circle .checkmark {
+    border-radius: 5px;
+  }
+  #success_tic .checkmark-circle .checkmark.draw:after {
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    animation-delay: 300ms;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-name: checkmark;
+    -moz-animation-name: checkmark;
+    animation-name: checkmark;
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -o-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(135deg);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  #success_tic .checkmark-circle .checkmark:after {
+    opacity: 1;
+    height: 75px;
+    width: 37.5px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    border-right: 15px solid #fff;
+    border-top: 15px solid #fff;
+    border-radius: 2.5px !important;
+    content: '';
+    left: 35px;
+    top: 80px;
+    position: absolute;
+  }
+  
+@-webkit-keyframes checkmark {
+    0% {
+      height: 0;
+      width: 0;
+      opacity: 1;
+    }
+    20% {
+      height: 0;
+      width: 37.5px;
+      opacity: 1;
+    }
+    40% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+    100% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes checkmark {
+    0% {
+      height: 0;
+      width: 0;
+      opacity: 1;
+    }
+    20% {
+      height: 0;
+      width: 37.5px;
+      opacity: 1;
+    }
+    40% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+    100% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+  }
+  @keyframes checkmark {
+    0% {
+      height: 0;
+      width: 0;
+      opacity: 1;
+    }
+    20% {
+      height: 0;
+      width: 37.5px;
+      opacity: 1;
+    }
+    40% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+    100% {
+      height: 75px;
+      width: 37.5px;
+      opacity: 1;
+    }
+  }
+@media (min-width: 576px) {
+    .right-side{
+        overflow-y: scroll;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    .right-side{
+        overflow-y: scroll;
+        width: 60vw;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {
+    
+}

@@ -1,0 +1,333 @@
+/* fonts */
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+h1{
+    font-weight: 300;
+}
+h5{
+    font-size: 1.3rem;
+}
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#btn-add-accommodation{
+    background-color: #528bf6;
+    border-radius: 40rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    padding: 0rem .7rem;
+    width: fit-content;
+    border-color: #528bf6;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+#btn-add-accommodation:hover{
+    background-color: #154db6;
+    color: white;
+}
+#btn-book-accommodation{
+    background-color: #528bf6;
+    border-color: #528bf6;
+    transition: .2s all ease-in-out;
+}
+#btn-book-accommodation:hover{
+    background-color: #154db6;
+    border-color: #154db6;
+}
+#btn-edit-accommodation{
+    background-color: #2ba16a;
+    border-color: #2ba16a;
+    transition: .2s all ease-in-out;
+}
+#btn-edit-accommodation:hover{
+    background-color: #14804d;
+    border-color: #14804d;
+}
+.accommodation-card{
+    min-height: 397px;
+}
+.accommodation .header{
+    background-color: #b5c1e3;
+    padding: 2rem;
+}
+.accommodation .header .svg{
+   width: 25rem;
+}
+.accommodation-nav{
+    float: left;
+    left: 0;
+    background-color: aliceblue;
+    border-right: 1px solid rgb(41, 41, 41);
+    width: 200px;
+    height: 100%;
+}
+.active{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    border-radius: .4rem;
+    color: rgba(0, 0, 0, 0.9)!important;
+}
+.bi-plus{
+    font-size: 3rem;
+}
+.available{
+    background-color: #7792d7 !important;
+    border-color:#7792d7 !important;
+    color: black;
+}
+.booked{
+    background-color: #d77777 !important;
+    border-color: #d77777 !important;
+    color: black;
+}
+.unavailable{
+    background-color: #7e7e7e !important;
+    border-color: #7e7e7e!important;
+    color: white;
+    cursor: initial !important;
+
+}
+.color-primary{
+    background-color: #7792d7 !important;
+    border-color:#7792d7 !important;
+    color: black;
+}
+.company-logo{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.company-logo:hover{
+    color: inherit;
+}
+.invalid{
+    color: red;
+}
+.logo{
+    height: 50px;
+}
+.mt-6{
+    margin-top: 6rem;
+}
+.modal-error{
+    background-color: red;
+    border-radius: 50%;
+    padding: 2rem;
+    /* font-size: 4rem; */
+}
+.navbar{
+    background-color: #2a3c6f !important;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.navbar-dashboard{
+    position: sticky;
+    top: 0;
+    padding: .5rem 0px;
+    background-color: rgb(142, 178, 226);
+    border-bottom: 1px solid rgb(118, 164, 224);
+    font-family: 'Montserrat', sans-serif;
+}
+.pt-6{
+    padding-top: 6rem !important;
+}
+.room-img{
+    object-fit: cover;
+    max-height: 200px !important;
+    height: 200px !important;
+}
+.user-image{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+
+
+#success_tic .page-body{
+  max-width:300px;
+  background-color:#FFFFFF;
+  margin:10% auto;
+}
+#success_tic .page-body .head{
+  text-align:center;
+}
+/* #success_tic .tic{
+  font-size:186px;
+} */
+#success_tic .close{
+      opacity: 1;
+    position: absolute;
+    right: 0px;
+    font-size: 30px;
+    padding: 3px 15px;
+  margin-bottom: 10px;
+}
+#success_tic .checkmark-circle {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.checkmark-circle .background {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #1ab394;
+  position: absolute;
+}
+#success_tic .checkmark-circle .checkmark {
+  border-radius: 5px;
+}
+#success_tic .checkmark-circle .checkmark.draw:after {
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  animation-delay: 300ms;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-name: checkmark;
+  -moz-animation-name: checkmark;
+  animation-name: checkmark;
+  -webkit-transform: scaleX(-1) rotate(135deg);
+  -moz-transform: scaleX(-1) rotate(135deg);
+  -ms-transform: scaleX(-1) rotate(135deg);
+  -o-transform: scaleX(-1) rotate(135deg);
+  transform: scaleX(-1) rotate(135deg);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#success_tic .checkmark-circle .checkmark:after {
+  opacity: 1;
+  height: 75px;
+  width: 37.5px;
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  transform-origin: left top;
+  border-right: 15px solid #fff;
+  border-top: 15px solid #fff;
+  border-radius: 2.5px !important;
+  content: '';
+  left: 35px;
+  top: 80px;
+  position: absolute;
+}
+
+@-webkit-keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 37.5px;
+    opacity: 1;
+  }
+  40% {
+    height: 75px;
+    width: 37.5px;
+    opacity: 1;
+  }
+  100% {
+    height: 75px;
+    width: 37.5px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 37.5px;
+    opacity: 1;
+  }
+  40% {
+    height: 75px;
+    width: 37.5px;
+    opacity: 1;
+  }
+  100% {
+    height: 75px;
+    width: 37.5px;
+    opacity: 1;
+  }
+}
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 37.5px;
+    opacity: 1;
+  }
+  40% {
+    height: 75px;
+    width: 37.5px;
+    opacity: 1;
+  }
+  100% {
+    height: 75px;
+    width: 37.5px;
+    opacity: 1;
+  }
+}
+  
+.input-error{
+  outline: 1px solid red;
+}
+.mx-5{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#get-package-img{
+    object-fit: cover;
+    max-height: 400px !important;
+    height: 400px !important;
+}

@@ -1,0 +1,54 @@
+table.dataTable tr td {
+    height: 3rem;
+}
+table.dataTable tbody tr{
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+table.dataTable tbody tr:hover{
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+table thead{
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+table thead tr td{
+    background-color: #3f5ba6;
+    color: white;
+    text-align: center !important;
+}
+.Paid{
+    background-color: #2a6f3a;
+    padding: .5rem 0rem;
+    width: 6rem;;
+    color: white;
+}
+.pay{
+    background-color: #f0d767;
+    color: #3c3c3c;
+    padding: .5rem 0rem;
+    width: 6rem;;
+}
+#trans-package-image{
+    object-fit: cover;
+    max-height: 400px !important;
+    height: 400px !important;
+}
+.confirm{
+    background-color:#b5c1e3;
+    color: #3c3c3c;
+    padding: .5rem 0rem;
+    width: 6rem;
+}
+#btn-confirm-payment{
+    background-color: #4dd4ac;
+    border-color: #4dd4ac;
+    color: black;
+}
+.Confirmed{
+    background-color:#a370f7;
+    color: white;
+    padding: .5rem 0rem;
+    width: 6rem;
+}
